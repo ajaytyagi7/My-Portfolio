@@ -1,0 +1,37 @@
+.mern-stack{
+    animation: animate 2s linear infinite;
+    overflow: hidden;
+    
+}
+@keyframes animate {
+    0%{
+        width:0 ;
+    }
+    70%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+ .service-img{
+    height: 70px;
+    width: 70px;
+
+}
+.project-img{
+    width: 400px;
+    object-fit: cover;
+
+}
+
+
+.project-card{
+    width: 400px;
+    height: 270px;
+   
+
+}
+
+
+
